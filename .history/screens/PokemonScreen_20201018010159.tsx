@@ -1,0 +1,23 @@
+import React from "react";
+import {View, Text} from "react-native"
+class PokemonScreen extends React.Component<any,any>{
+    constructor(props: any){
+        super(props);
+        console.log('[Pokemon Info]', this.props);
+        
+    }
+
+    render() {
+        if() {
+
+        }
+        return (
+            <View>
+                <Text>{this.props.route.params.pokemon.name}</Text>
+            </View>
+        )
+    }
+
+}
+
+export default PokemonScreen;
